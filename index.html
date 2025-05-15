@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Women's Empowerment Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Women's Empowerment Timeline</h1>
+        <p>A tribute to women throughout history, showcasing important events and milestones for each day of the year.</p>
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        <input type="text" id="search-bar" placeholder="Search events..." />
+    </header>
+    
+    <section class="calendar-container">
+        <div class="calendar">
+            <div class="calendar-header">
+                <button class="prev-month">&lt;</button>
+                <h2 id="month-year"></h2>
+                <button class="next-month">&gt;</button>
+            </div>
+            <div id="calendar-body" class="calendar-body"></div>
+        </div>
+    </section>
+
+    <section class="info-modal" id="info-modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <img id="modal-image" src="" alt="Event Image" />
+        </div>
+    </section>
+
+    <audio id="click-sound" src="sounds/correct.mp3"></audio>
+    <script src="scripts.js"></script>
+</body>
+</html>
