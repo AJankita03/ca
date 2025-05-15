@@ -281,7 +281,7 @@ const events = {
             day: 25,
             title: "Women’s March in Washington D.C.",
             description: "The Women’s March on March 25, 2017, was one of the largest protests in U.S. history, advocating for women’s rights and equality.",
-            image: "images/womens.jpg"
+            image: "womens.jpg"
         },
         {
             day: 27,
@@ -650,7 +650,7 @@ const events = {
             day: 28,
             title: "Celebrating Women Authors: Virginia Woolf",
             description: "On June 28, we celebrate Virginia Woolf, an iconic British writer known for her works like 'Mrs Dalloway' and 'To the Lighthouse', which explored themes of women’s autonomy.",
-            image: "images/vv.jpeg"
+            image: "vv.jpeg"
         },
         {
             day: 30,
