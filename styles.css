@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, rgba(113, 110, 110, 0.858), rgba(72, 116, 137, 0.781));
-    color: #000000;
+    background: rgb(7, 43, 76);
+    color: #fffafa;
     padding: 20px;
     text-align: center;
     transition: background-color 0.3s, color 0.3s;
@@ -20,7 +20,7 @@ header {
 
 h1 {
     font-size: 36px;
-    color: #000000;
+    color: #ffffff;
     font-family: 'Georgia', serif;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -29,7 +29,7 @@ h1 {
 
 p {
     font-size: 18px;
-    color: #61063e;
+    color: #b5ebe4;
     margin-bottom: 20px;
 }
 
@@ -78,7 +78,7 @@ button:hover {
 }
 
 .calendar {
-    background-color: #cef5f6c7;
+    background-color: #ffe9fbc7;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -91,8 +91,8 @@ button:hover {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #579091;
-    color: #fff;
+    background-color: #547879;
+    color: #ffffff;
     border-bottom: 4px solid #5fa5a4;
 }
 
@@ -129,8 +129,8 @@ button:hover {
 }
 
 .calendar-body div:hover {
-    background-color: #557979;
-    color: #fff;
+    background-color: #224949;
+    color: #231717;
     transform: scale(1.1);
 }
 
@@ -151,7 +151,7 @@ button:hover {
 }
 
 .modal-content {
-    background-color: #fff;
+    background-color: #012326;
     padding: 30px;
     border-radius: 10px;
     width: 70%;
@@ -168,8 +168,8 @@ button:hover {
 }
 
 .dark-mode {
-    background-color: #556d86;
-    color: #b9dce4;
+    background-color: #040c0b;
+    color: #fbffff;
 }
 
 .dark-mode button {
@@ -181,7 +181,7 @@ button:hover {
 }
 
 .dark-mode .calendar-body div {
-    background-color: #34495e;
+    background-color: #003842;
 }
 
 .dark-mode .calendar-body div:hover {
