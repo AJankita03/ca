@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: rgb(7, 43, 76);
+    background: radial-gradient(#003236,#0d5563,#24677c,#95c2e4  );
     color: #fffafa;
     padding: 20px;
     text-align: center;
@@ -29,7 +29,7 @@ h1 {
 
 p {
     font-size: 18px;
-    color: #b5ebe4;
+    color: #c6f8ff;
     margin-bottom: 20px;
 }
 
@@ -39,18 +39,18 @@ p {
     max-width: 400px;
     margin: 10px 0;
     font-size: 16px;
-    border: 2px solid #8e44ad;
+    border: 2px solid #c497d8;
     border-radius: 5px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 #search-bar:focus {
     outline: none;
-    border-color: #9b59b6;
+    border-color: #290437;
 }
 
 button {
-    background-color: #dda5f6;
+    background-color: #efe9f2;
     border: none;
     color: #fff;
     font-size: 16px;
@@ -62,7 +62,7 @@ button {
 }
 
 button:hover {
-    background-color: #010f0f;
+    background-color: #fcd7f3;
 }
 
 .calendar-container {
@@ -78,7 +78,7 @@ button:hover {
 }
 
 .calendar {
-    background-color: #ffe9fbc7;
+    background-color: #a9e0fee6;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -91,25 +91,25 @@ button:hover {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #547879;
+    background-color: #0d4469;
     color: #ffffff;
-    border-bottom: 4px solid #5fa5a4;
+    border-bottom: 4px solid #f8ffff;
 }
 
 .calendar-header h2 {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 button {
     background-color: transparent;
     border: none;
-    color: #fff;
+    color: #eff9fa;
     font-size: 24px;
     cursor: pointer;
 }
 
 button:hover {
-    color: #dc8294;
+    color: #000000;
 }
 
 .calendar-body {
@@ -121,7 +121,7 @@ button:hover {
 
 .calendar-body div {
     padding: 15px;
-    background-color: #f0e1f2;
+    background-color: #03213e;
     border-radius: 8px;
     font-size: 18px;
     cursor: pointer;
@@ -129,8 +129,8 @@ button:hover {
 }
 
 .calendar-body div:hover {
-    background-color: #224949;
-    color: #231717;
+    background-color: #f4f4f4;
+    color: #2c0505;
     transform: scale(1.1);
 }
 
@@ -151,7 +151,7 @@ button:hover {
 }
 
 .modal-content {
-    background-color: #012326;
+    background-color: #024c52;
     padding: 30px;
     border-radius: 10px;
     width: 70%;
@@ -173,11 +173,11 @@ button:hover {
 }
 
 .dark-mode button {
-    background-color: #122737;
+    background-color: #074970;
 }
 
 .dark-mode input {
-    border: 2px solid #98d6ff;
+    border: 2px solid #0a1f2d;
 }
 
 .dark-mode .calendar-body div {
@@ -185,7 +185,7 @@ button:hover {
 }
 
 .dark-mode .calendar-body div:hover {
-    background-color: #2b424c;
+    background-color: #010d12;
 }
 
 #modal-image {
