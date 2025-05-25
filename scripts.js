@@ -281,7 +281,7 @@ const events = {
             day: 25,
             title: "Women’s March in Washington D.C.",
             description: "The Women’s March on March 25, 2017, was one of the largest protests in U.S. history, advocating for women’s rights and equality.",
-            image: "womens.jpg"
+            image: "images/womens.jpg"
         },
         {
             day: 27,
@@ -650,7 +650,7 @@ const events = {
             day: 28,
             title: "Celebrating Women Authors: Virginia Woolf",
             description: "On June 28, we celebrate Virginia Woolf, an iconic British writer known for her works like 'Mrs Dalloway' and 'To the Lighthouse', which explored themes of women’s autonomy.",
-            image: "vv.jpeg"
+            image: "images/vv.jpeg"
         },
         {
             day: 30,
@@ -1123,9 +1123,7 @@ searchBar.addEventListener('input', (e) => {
 });
 
 // Dark mode toggle
-darkModeToggle.addEventListener('click', () => {
-    body.classList.toggle('dark-mode');
-});
+
 
 // Initialize the calendar for the current month and year
 createCalendar(currentMonth, currentYear);
