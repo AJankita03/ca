@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: radial-gradient(#42c2be,#70e1dd,#93eafb,#c3edf5  );
+    background: radial-gradient(#42c2be,#7be2df,#a5f3f7,#dbf9ff  );
     color: #fffafa;
     padding: 20px;
     text-align: center;
@@ -78,7 +78,7 @@ button:hover {
 }
 
 .calendar {
-    background-color: #a9e0fee6;
+    background-color: #e5ecf0e6;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -151,7 +151,7 @@ button:hover {
 }
 
 .modal-content {
-    background-color: #d2fdf9;
+    background-color: #edfffc;
     padding: 30px;
     border-radius: 10px;
     width: 70%;
