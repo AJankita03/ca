@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: radial-gradient(#003236,#0d5563,#24677c,#95c2e4  );
+    background: radial-gradient(#42c2be,#70e1dd,#93eafb,#c3edf5  );
     color: #fffafa;
     padding: 20px;
     text-align: center;
@@ -20,7 +20,7 @@ header {
 
 h1 {
     font-size: 36px;
-    color: #ffffff;
+    color: #04305f;
     font-family: 'Georgia', serif;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -29,7 +29,7 @@ h1 {
 
 p {
     font-size: 18px;
-    color: #c6f8ff;
+    color: #066875;
     margin-bottom: 20px;
 }
 
@@ -151,7 +151,7 @@ button:hover {
 }
 
 .modal-content {
-    background-color: #024c52;
+    background-color: #d2fdf9;
     padding: 30px;
     border-radius: 10px;
     width: 70%;
@@ -197,6 +197,9 @@ button:hover {
 
 #modal-image:hover {
     transform: scale(1.05);
+}
+#modal-title {
+   color: #011a56;
 }
 
 /* Responsive design for small screens */
